@@ -52,3 +52,5 @@ for countingNumbers in range (1,10,2):
         print('Inner loop and the value of specificCounts is --> ', specificCounts) 
         #Note it will display the numbers each time starting from the new value of countingNumbers 
     print ("---------------------------- An iteration of the outer loop ------------")    
+
+
