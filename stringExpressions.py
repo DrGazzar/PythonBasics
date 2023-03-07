@@ -25,3 +25,11 @@ print ( backEndServer.capitalize()  )
 #  Converts the whole string to small (lower) letters so the output will be       db server 
 print ( backEndServer.casefold()  )
 
+#  Converts the whole string to small (lower) letters so the output will be       db server 
+print ( backEndServer.casefold()  )
+
+
+# Count the number of times a specific value occured in a string ... in this example it will search for er in the string and will return 2
+print ( backEndServer.count('er'))
+
+
