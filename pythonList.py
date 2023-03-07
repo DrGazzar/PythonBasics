@@ -42,4 +42,22 @@ del programmingLanguages # remove the entire list
 programLang.clear() #empty the list
 
 print(programLang) # will display empty list
-# 
+
+
+############ Operations on lists ################
+
+# Sort the list
+
+courses.sort()
+print(courses)
+
+# Copy
+
+allCourses = courses.copy()
+print(allCourses)
+
+
+# Joiin 2 lists
+
+allCourses.extend(courses)
+print(allCourses)
