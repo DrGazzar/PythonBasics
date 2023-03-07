@@ -4,6 +4,8 @@
 
 
 #Function without parameters and without return values
+#Note the indentation .. It is very important 
+
 def displayWelcomeMsg():
     print('Welcome to Python')
     print('This is a function')
