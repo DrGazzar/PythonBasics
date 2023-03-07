@@ -1,6 +1,7 @@
 #This script shows how to declare string variables and apply different operations on them
 #License GPL
 #Created by: Mohamed ElGazzar (DrGazzar)
+#Github repo: https://github.com/DrGazzar/PythonBasics
 
 frontEndServer = 'Web Server'
 backEndServer = 'DB Server'

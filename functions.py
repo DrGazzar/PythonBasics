@@ -1,7 +1,7 @@
 #This script shows how to declaring and calling functions
 #License GPL
 #Created by: Mohamed ElGazzar (DrGazzar)
-
+#Github repo: https://github.com/DrGazzar/PythonBasics
 
 #Function without parameters and without return values
 #Note the indentation .. It is very important 

@@ -1,6 +1,7 @@
 #This script shows how to declare numberical variables and apply different expressions on them
 #License GPL
 # Created by: Mohamed ElGazzar
+#Github repo: https://github.com/DrGazzar/PythonBasics
 
 webServerMemory = 1000
 dbServerMemory = 2000
