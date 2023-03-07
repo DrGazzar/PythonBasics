@@ -3,8 +3,11 @@
 #Created by: Mohamed ElGazzar
 
 
-webServerMemory = 55340
+webServerMemory = 155340
 dbServerMemory = 13420
+
+webServerStorage = 55653
+dbServerStorage = 3563
 
 # check which have higher memory
 # Note the indentation .. it is very important
@@ -27,12 +30,13 @@ else:
 
 
 # If statements can be nested -- Indentation is very important
+if webServerMemory > dbServerMemory:
+    print ('The memory of the web server is higher than the memory of the DB server')
+    if webServerStorage > dbServerStorage:
+        print ('and the storage too')
 
 
 #------------------------ The composite conditions -- logical operators -- and ---------------------------
-
-webServerStorage = 55653
-dbServerStorage = 3563
 
 
 if webServerMemory > dbServerMemory and webServerStorage > dbServerStorage:
@@ -45,7 +49,7 @@ if webServerMemory > dbServerMemory or webServerStorage > dbServerStorage:
     print ('Web Server has one of the specifications higher than the DB server')
 
 
-#------------------------ The composite conditions -- logical operators -- not  ---------------------------
+#------------------------- logical operators -- not  ---------------------------
 
 if not webServerMemory > dbServerMemory:
     print ('The memory of the DB server is higher than the memory of the web server')
