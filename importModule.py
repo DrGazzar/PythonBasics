@@ -4,10 +4,11 @@
 #Github repo: https://github.com/DrGazzar/PythonBasics
 
 
-import scopes
+import scopesraw
+
 # note that when importing a file, it will be executed ... so it should be only functions, classes, etc without calling them
 
-scopes.getType()
+scopesraw.getType()
 
 
-scopes.getGlobalType()
+scopesraw.getGlobalType()
