@@ -1,6 +1,6 @@
-#This script shows how to demonestrate python classes inheritance (OOP)
+#This script shows how to demonestrate the scopes in python
 #License GPL
-#Created by: Mohamed ElGazzar (DrGazzar)
+#Created by: Mohamed ElGazzar (DrGazzar) 
 #Github repo: https://github.com/DrGazzar/PythonBasics
 
 
