@@ -1,0 +1,7 @@
+memory = 16
+storage = 512
+processor = x86
+lang = python
+version = 3.10
+operating_system = macOS
+file_system = EXT4
