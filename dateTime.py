@@ -12,3 +12,13 @@ print(datetime.date.today())   #date only
 print(datetime.datetime.now().year)  #year only
 
 print(datetime.date.today().day)   #day only
+
+
+####### creating date time for specific date
+
+
+victoryDay = datetime.datetime(1973,10,6)
+
+print(victoryDay.day)
+
+print(victoryDay.year)
