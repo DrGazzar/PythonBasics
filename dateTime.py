@@ -17,8 +17,12 @@ print(datetime.date.today().day)   #day only
 ####### creating date time for specific date
 
 
-victoryDay = datetime.datetime(1973,10,6)
+vDay = datetime.datetime(1393,10,10)
 
-print(victoryDay.day)
+print(vDay.day)
 
-print(victoryDay.year)
+print(vDay.year)
+
+#It is possible to format the date/time according to the format needed
+
+print(vDay.strftime("%A - %w -  %m  -  %Y"))
