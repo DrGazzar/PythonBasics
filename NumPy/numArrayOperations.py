@@ -33,3 +33,16 @@ print("staking", np.stack((infrastructureSeversNo1, infrastructureSeversNo2), ax
 infrastructurePartialList = np.array_split(infrastructureSeversNo1,2)
 
 print("The partial list is: ", infrastructurePartialList)
+
+
+########### Array search using where
+
+programmingLang = np.where (computerScienceCourses=="Java")
+
+print(programmingLang)
+
+############# array sort ###########
+
+sortedComputerScienceCourse = np.sort(computerScienceCourses)
+
+print("sorted", sortedComputerScienceCourse)
