@@ -37,3 +37,32 @@ anotherNewCopy[0] = 95
 print('The copy is ',anotherNewCopy)
 print('The original is: ', modifiedStudentGrades)
 
+
+######## get the shape of the array ########
+
+shape = modifiedStudentGrades.shape
+print(shape)
+
+
+################## Reshaping arrays #########
+### assume that we have one dimensional arrray and we want to reshape it into 2 dimensional array
+
+computerScienceCourses = np.array(['OS','Networks', 'Graphics', 'Linear Algebra', 'Java', 'C++', "Artificial Intelligence", "English"])
+
+print("The type of the array is:", type(computerScienceCourses))
+
+computerScienceCoursesReshaped = computerScienceCourses.reshape(4,2)
+
+print("The new array is: ", computerScienceCoursesReshaped)
+
+
+###### In order to make and x-dimensional array flat, we use -1 to the reshape function
+
+print("Back to flat array: ",computerScienceCoursesReshaped.reshape(-1))
+
+
+#### For loop with numpy array
+
+
+for courseName in computerScienceCourses:
+    print(courseName)
