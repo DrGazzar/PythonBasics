@@ -66,3 +66,6 @@ print("Back to flat array: ",computerScienceCoursesReshaped.reshape(-1))
 
 for courseName in computerScienceCourses:
     print(courseName)
+
+
+##########################################
