@@ -6,4 +6,6 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-sns.distplot(["Java", "Python", "C#"])
+sns.displot([105, 204, 11])
+
+plt.show()
