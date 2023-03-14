@@ -1,4 +1,4 @@
-#This script shows how to demonestrate numpy loading files into arrays
+#This script shows how to demonestrate Pandas datasets
 #License GPL
 #Created by: Mohamed ElGazzar (DrGazzar)
 #Github repo: https://github.com/DrGazzar/PythonBasics
