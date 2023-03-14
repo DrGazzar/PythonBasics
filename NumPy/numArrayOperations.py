@@ -46,3 +46,35 @@ print(programmingLang)
 sortedComputerScienceCourse = np.sort(computerScienceCourses)
 
 print("sorted", sortedComputerScienceCourse)
+
+
+######## creating uninitialized array
+
+lectures = np.empty([5,3], dtype=int)
+
+print("The empty array (filled with random values) is: ",lectures )
+
+####### return an array filled of zeros
+
+zeros = np.zeros([4,5], dtype=float)
+
+print("the zeros array is: ", zeros)
+
+####### Not only filled with zeros, it can be filled with ones too ######
+
+ones = np.ones([2,4], dtype=int)
+
+print("The array filled with ones is: ", ones)
+
+######## convert a buffer (e.g. string) to a numpy array
+##### The letter b before string to convert it to byte format 
+programmingLanguageName = b'Python Programming Language'
+
+separatedProg = np.frombuffer(programmingLanguageName, dtype = 'S1')
+
+print("The separated name is: ", separatedProg)
+
+print(separatedProg[8].decode('UTF-8'))
+
+##### The above line is to decode to UTF-8
+

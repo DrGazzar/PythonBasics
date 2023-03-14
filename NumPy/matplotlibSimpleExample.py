@@ -6,9 +6,21 @@
 
 ## Work in progress 
 
+
 import matplotlib.pyplot as plt
 import seaborn as sns
+import numpy as np
 
-sns.displot([105, 204, 11])
+#### an example using the tips build-in data set
+
+
+tipsData = sns.load_dataset("tips")
+
+tipsData.head()
+
+sns.displot(data=tipsData, x="total_bill")
 
 plt.show()
+
+##################
+
