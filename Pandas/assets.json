@@ -1,0 +1,23 @@
+
+{
+"servers" : [
+
+    {
+    "name":"web server",
+    "vendor": "apache",
+    "version": "2.x"
+    },
+
+    {
+    "name":"database",
+    "vendor": "mongo",
+    "version": "1.x"
+    },
+    
+    {
+    "name":"ssh",
+    "vendor": "openssh",
+    "version": "5.x"
+    }
+
+]}
