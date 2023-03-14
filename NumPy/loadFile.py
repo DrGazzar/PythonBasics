@@ -12,3 +12,4 @@ serverData = np.loadtxt("NumPy/ServerData.csv", delimiter=",", dtype=str)
 print(serverData)
 
 
+###############

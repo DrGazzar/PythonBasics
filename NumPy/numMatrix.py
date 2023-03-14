@@ -28,3 +28,15 @@ diagonalList = np.matlib.eye(n=9, M=9, k=0, dtype="int")
 
 print(diagonalList)
 
+
+######## identity matrix: square matrix with diagonal 1 and remaining 0
+
+identityMatrix = np.matlib.identity(5, dtype="int")
+
+print(identityMatrix)
+
+######## Matrix filled with random numbers
+
+randomMatrix = np.matlib.rand(5,9)
+
+print(randomMatrix)
