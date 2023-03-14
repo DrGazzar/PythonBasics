@@ -5,7 +5,7 @@
 
 
 import numpy as np
-import seaborn as sns
+
 
 serverData = np.loadtxt("NumPy/ServerData.csv", delimiter=",", dtype=str)
 

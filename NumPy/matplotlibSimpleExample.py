@@ -1,4 +1,4 @@
-#This script shows how to demonestrate numpy matplotlib
+#This script shows how to demonestrate numpy , seaborn and matplotlib
 #License GPL
 #Created by: Mohamed ElGazzar (DrGazzar)
 #Github repo: https://github.com/DrGazzar/PythonBasics
