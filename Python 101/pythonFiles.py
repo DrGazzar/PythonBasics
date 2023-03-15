@@ -6,7 +6,7 @@
 
 ######## reading a configuration file in to a list #############
 
-conf = open ("serverConfigurations.cnf", "r")
+conf = open ("Python 101/serverConfigurations.cnf", "r")
 
 
 configurations =[]
@@ -21,8 +21,8 @@ conf.close()
 
 ####### writing in a file (append)############ 
 
-conf = open ("serverConfigurations.cnf", "a")
+conf = open ("Python 101/serverConfigurations.cnf", "a")
 
-conf.write("file_system = EXT4")
+conf.write("Type= blade")
 
 conf.close()

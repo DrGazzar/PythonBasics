@@ -5,3 +5,4 @@ lang = python
 version = 3.10
 operating_system = macOS
 file_system = EXT4
+Type= blade
