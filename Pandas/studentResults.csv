@@ -1,0 +1,11 @@
+studentID,courseName,courseWork,finalExam,total
+1,Math,40,50,90
+2,Networks,20,30,50
+3,Operating Systems,30,44,74
+4,Networks 2,24,34,58
+5,English,34,34,68
+6,Linear Algebra,20,10,30
+7,Graphics,50,15,65
+8,Project Management,20,30,50
+9,Software Engineering,50,32,82
+10,Cloud Computing,10,15,25

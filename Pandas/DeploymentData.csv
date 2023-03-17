@@ -1,0 +1,9 @@
+seq,server_name,server_ip,server_memory,server_storage,deployment_date
+1,webserver,192.168.1.3,16,32000,2023/03/11
+2,dbserver,,160000,,2023/03/11
+3,appserver,192.168.1.5,,64000,2023/03/12
+4,fileserver,192.168.1.6,35,,2023/03/11
+3,appserver,192.168.1.5,,64000,2023/03/12
+5,proxyserver,192.168.1.7,32,64000,2023/03/09
+6,mailserver,192.168.1.9,54,8000,2023/03/02
+1,webserver,192.168.1.3,16,32000,2023/03/11
