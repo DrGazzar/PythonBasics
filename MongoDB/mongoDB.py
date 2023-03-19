@@ -58,4 +58,29 @@ listOfCollections = workingDB.list_collection_names()
 print ("List of Databases :", listOfDatabases)
 print ("List of collections :", listOfCollections)
 
+
+if "serverLogs" in listOfCollections:
+    print("----------- Collection exists -----------")
+
 ################################
+### select data from the collection
+
+#for selectedDocument in workingCollection.find():
+#    print("The selected document is : ", selectedDocument)
+
+for selectedDoc in workingCollection.find( { "serverName":"Database Server", "serverSoftware":"MongoDB" }):
+    print("returned documents: ",selectedDoc)
+
+
+####### Selection using query object (filtering the result) ##########
+
+searchFor = {"serverName": "web server"}
+
+resultSet = workingCollection.find(searchFor)
+
+print ("######################################################")
+
+for oneItem in resultSet:
+    print ("result record ", oneItem)
+
+
