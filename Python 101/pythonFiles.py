@@ -25,4 +25,4 @@ conf = open ("Python 101/serverConfigurations.cnf", "a")
 
 conf.write("Type= blade")
 
-conf.close()
+conf.close()  
